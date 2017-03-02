@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter31.Exercise31_9SingleServerController">
+   <center>
+      <TextArea fx:id="taServer" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <TextField fx:id="tfServer" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <Label text="Server" BorderPane.alignment="CENTER" />
+   </top>
+</BorderPane>
